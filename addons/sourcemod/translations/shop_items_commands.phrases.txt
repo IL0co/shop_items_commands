@@ -1,0 +1,169 @@
+"Phrases"
+{
+	"Reply. Usage: Give Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> <количество/длительность (-1 - бесконечно)>"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> <amount / duration (-1 - infinite)>"
+	}
+	"Reply. Usage: Take Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> [количество]"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> [amount]"
+	}
+	"Reply. Usage: Toggle Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> [состояние 0/1 или пусто для инвентированния текущего]"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> [state 0/1 or empty to invent the current]"
+	}
+	"Reply. Usage: Toggle Category Off Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория>"
+		"en"	"[SHOP] Usage: {1} <players> <category>"
+	}
+	"Reply. Usage: Change Duration Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> <+/- время в секунда или 0 - навсегда>"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> <time in second or 0 - forever>"
+	}
+	"Reply. Usage: Buy Item Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> [количество]"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> [count]"
+	}
+	"Reply. Usage: Sell Item Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> [количество]"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> [count]"
+	}
+	"Reply. Usage: Use Item Command"
+	{
+		"#format" "{1:s}"
+		"ru"	"[SHOP] Использование: {1} <игроки> <категория> <название предмета> [количество]"
+		"en"	"[SHOP] Usage: {1} <players> <category> <item name> [count]"
+	}
+
+	"Chat. Give Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Вам выдали предмет {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT}{3}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]You were given an item {GREEN}{1}{DEFAULT} from the category {GREEN}{2}{DEFAULT}{3}"
+	}
+	"Chat. Take Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]У Вас забрали предмет {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT}{3}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]The item {GREEN}{1}{DEFAULT} from the category {GREEN}{2}{DEFAULT} was taken from you {3}"
+	}
+	"Chat. Toggle Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Вам {3} предмет {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]Your item was {3} {GREEN}{1}{DEFAULT} from the category {GREEN}{2}{DEFAULT}"
+	}
+	"Chat. Toggle Category Off Command Message"
+	{
+		"#format" "{1:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Вам {RED}выключии{DEFAULT} все предметы из категории {GREEN}{1}{DEFAULT}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]You {RED}turn off{DEFAULT} all items from the category {GREEN}{1}{DEFAULT}"
+	}
+	"Chat. Change Duration Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Вам поменяли длительность предмета {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT} до {3}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]You have changed the duration of the item {GREEN}{1}{DEFAULT} from the category {GREEN}{2}{DEFAULT} to {3}"
+	}
+	"Chat. Buy Item Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Вам за Ваш счёт был {GREEN}куплен{DEFAULT} предмет {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT}{3}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]You {GREEN}bought{DEFAULT} at your expense item {GREEN} {1} {DEFAULT} from category {GREEN}{2}{DEFAULT}{3}"
+	}
+	"Chat. Sell Item Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Вам за Ваш счёт был {RED}продан{DEFAULT} предмет {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT}{3}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]Was {GREEN}sold{DEFAULT} to you at your expense item {GREEN}{1}{DEFAULT} from category {GREEN}{2}{DEFAULT}{3}"
+	}
+	"Chat. Use Item Command Message"
+	{
+		"#format" "{1:s},{2:s},{3:s}"
+		"ru"	"[{GREEN}SHOP{DEFAULT}]Ваш предмет {GREEN}{1}{DEFAULT} из категории {GREEN}{2}{DEFAULT} был использован вами{3}"
+		"en"	"[{GREEN}SHOP{DEFAULT}]Your {GREEN}{1}{DEFAULT} item from the {GREEN}{2}{DEFAULT} category has been used by you{3}"
+	}
+
+	"Chat. In Count"
+	{
+		"#format" "{1:i}"
+		"ru"	"в количестве {GREEN}{1}{DEFAULT} штук"
+		"en"	"in the amount of {GREEN}{1}{DEFAULT} pieces"
+	}
+	
+	"Chat. Toggle On"
+	{
+		"ru"	"{GREEN}сделали активным{DEFAULT}"
+		"en"	"{GREEN}made active{DEFAULT}"
+	}
+
+	"Chat. Toggle Off"
+	{
+		"ru"	"{RED}сделали не активным{DEFAULT}"
+		"en"	"{RED}made inactive{DEFAULT}"
+	}
+	
+	"Chat. Set Infinitely"
+	{
+		"ru"	"{GREEN}бессконечно{DEFAULT}"
+		"en"	"{GREEN}infinitely{DEFAULT}"
+	}
+	
+	"Reply. Command Complete"
+	{
+		"ru"	"Команда успешно выполнена!"
+		"en"	"Command completed successfully!"
+	}
+	"Reply. Players Not Found"
+	{
+		"ru"	"Не найдено игроков, операция прервана!"
+		"en"	"No players found, operation aborted!"
+	}
+	"Reply. Category Not Found"
+	{
+		"#format" "{1:s}"
+		"ru"	"Категория '{1}' не найдена!"
+		"en"	"Category '{1}' not found!"
+	}
+	"Reply. Item Not Found"
+	{
+		"#format" "{1:s}"
+		"ru"	"Предмет '{1}' не найден!"
+		"en"	"Item '{1}' not found !"
+	}
+	"Reply. Item State Not Supported Togglable"
+	{
+		"ru"	"Эта команда поддерживает только Togglable тип предмета!"
+		"en"	"This command only supports Togglable item types!"
+	}
+	"Reply. Item State Not Supported Finite"
+	{
+		"ru"	"Эта команда поддерживает только Finite тип предмета!"
+		"en"	"This command only supports Finite item types!"
+	}
+	"Reply. Item Hidden"
+	{
+		"ru"	"Этот предмет нельзя купить!"
+		"en"	"This item cannot be purchased!"
+	}
+	"Reply. Item Sell Price Is 0"
+	{
+		"ru"	"Цена продажи предмета равна 0!"
+		"en"	"Item sale price is 0!"
+	}
+	
+}
